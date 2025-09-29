@@ -7,16 +7,48 @@ numbertwo=int(input("Enter your second number: "))
 
 
 factorslistuno = []
+factorslistdos = []
+commonfacts = []
 
-def op(william):
-    for i in range(1, william+1):
-        if william % i ==0:
+
+
+
+def 
+
+
+
+
+def factoruno():
+    for i in range(1, numberone+1):
+        if numberone % i ==0:
             factorslistuno.append(i)
     return factorslistuno
+factoruno()
 
 
-william = int(input("Enter the positive integer that you are trying to find all possible factors of: "))
-op(william)
-print (factorslist)
+def factordos():
+    for i in range(1, numbertwo+1):
+        if numbertwo % i ==0:
+            factorslistdos.append(i)
+    return factorslistdos
+factordos()
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
