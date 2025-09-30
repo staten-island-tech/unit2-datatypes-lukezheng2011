@@ -13,27 +13,24 @@ commonfacts = []
 
 
 
-def 
 
 
 
 
-def factoruno():
-    for i in range(1, numberone+1):
-        if numberone % i ==0:
-            factorslistuno.append(i)
-    return factorslistuno
-factoruno()
 
+def factordos(xi,yi):
+    xi = input("Enter your first number: ")
+    
+    yi = input("Enter your second number: ")
+    gcf = 0
+    for i in range(1,xi ):
+        if xi % i ==0 and yi % i ==0 :
+            gcf = i
+    
 
-def factordos():
-    for i in range(1, numbertwo+1):
-        if numbertwo % i ==0:
-            factorslistdos.append(i)
-    return factorslistdos
 factordos()
           
-
+print(factordos(xi,yi))
 
 
 
